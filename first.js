@@ -15,7 +15,7 @@ const zodiacSigns = [
     "Sagittarius", // November 22 - December 21
   ];
 
-//   Based on date size of 31
+//   Based on data size of 31
   const compliments = [
     "You have an amazing sense of humor.",
     "Your smile lights up the room.",
@@ -112,7 +112,7 @@ const zodiacSigns = [
 
 // Size of 20
 const predictions = [
-    "You will become a crorepati (millionaire) in the near future.",
+    "You will recieve great wealth in the near future.",
     "A significant career opportunity is coming your way.",
     "Your creativity will open new doors for you.",
     "You will soon travel to a foreign country.",
@@ -159,12 +159,6 @@ const sixth_message=predictions[index];
 
 result.innerText=`${first_message} ${second_message} ${third_message} ${fourth_message} Our Recommendation for you:  ${fifth_message} Your Future Prediction is:  ${sixth_message}`;
 
-// console.log(Name,SurName,Day,Month,Year);
-
-
-// console.log(Name, SurName);
-
-// console.log("Submitted");
 })
 
 
